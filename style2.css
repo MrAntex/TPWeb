@@ -1,0 +1,72 @@
+/* || General setup */
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat/static/Montserrat-Light.ttf);
+}
+
+
+html {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  font-size: 10px;
+  background-color: #15142e;
+}
+
+body {
+  min-height: 100%;
+  height: 100%;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* || typography */
+* {
+  font-family: Montserrat;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+tr{
+  margin: 80px;
+  background-color: black;
+  height: 50%;
+  font-size: 10rem;
+  color:#ffffff;
+  text-align: center;
+}
+
+td{
+  margin: 80px;
+  padding: 0 auto;
+  width: 6em;
+  height: 50%;
+}
+
+table{
+  vertical-align: baseline;
+  width: 50%;
+  min-height: 100%;
+  height: 100%;
+}
+td a {
+  padding: 0 auto;
+  color:white;
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+  display: block;
+  vertical-align: middle;
+}
+
+.MainContainer{
+  height: 75%;
+}
